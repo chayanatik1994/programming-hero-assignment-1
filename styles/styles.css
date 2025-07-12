@@ -417,3 +417,44 @@ body {
 .contact-form button:hover {
   background-color: #4338ca;
 }
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fafafa;
+}
+
+.footer-logo {
+  font-size: 80px;
+  font-weight: 800;
+  color: blue; 
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  color: black;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #888;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #4f46e5;
+}
