@@ -100,3 +100,78 @@ img{
     gap: 50px;
     display: flex;
 }
+/* Section-Action Styles */
+.section-title{
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.action-heading{
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    margin:20px 20px;
+}
+.launch-live-preview{
+    font-size: 16px;
+    background-color: blue;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: white;
+    
+}
+.launch-live-preview:hover{
+    background-color: #4338ca;
+}
+p{
+    margin-left: 20px ;
+    font-size: 24px;
+    color: #252432;
+}
+img{
+    width: 300px;
+    height: auto;
+    border-radius: 48px;
+    margin: 30px;
+    gap: 50px;
+    display: flex;
+}
+/*Productive Users Section  */
+.sec-title{
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px 30px;
+
+}
+.sec-heading{
+    background-color:#e8ecff;;
+    border-radius: 15px;
+    padding: 30px 50px; 
+    text-align: center;
+    max-width: 800px;
+}
+.sec-heading h2{
+    margin-bottom: 24px;
+    font-size: 38px;
+}
+.secs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.sec h3{
+    font-size: 32px;
+    color:#5851ff;
+    margin: 0;
+}
+.sec p{
+    margin: 10px 0 0;
+    color:#666;
+}
+p{
+    font-size: 16px;
+}
