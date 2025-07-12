@@ -100,45 +100,6 @@ img{
     gap: 50px;
     display: flex;
 }
-/* Section-Action Styles */
-.section-title{
-
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-}
-.action-heading{
-    font-size: 42px;
-    font-weight: bold;
-    color: black;
-    text-align: left;
-    margin:20px 20px;
-}
-.launch-live-preview{
-    font-size: 16px;
-    background-color: blue;
-    padding: 5px 5px;
-    border-radius: 5px;
-    margin-left: 20px;
-    color: white;
-    
-}
-.launch-live-preview:hover{
-    background-color: #4338ca;
-}
-p{
-    margin-left: 20px ;
-    font-size: 24px;
-    color: #252432;
-}
-img{
-    width: 300px;
-    height: auto;
-    border-radius: 48px;
-    margin: 30px;
-    gap: 50px;
-    display: flex;
-}
 /*Productive Users Section  */
 .sec-title{
     display: flex;
@@ -175,3 +136,220 @@ img{
 p{
     font-size: 16px;
 }
+* Section Styling */
+.review-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  display: flex;
+}
+
+.review-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: left;
+}
+/* styling section */
+.review-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  display: flex;
+}
+
+.review-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: left;
+}
+
+/* Stars Row */
+.stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.stars img {
+  width: 20px;
+  height: 20px;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review-card {
+  background-color: #ffffff;
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+}
+
+.stars {
+  color: #facc15; 
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f7faff;
+  color: #222;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px 30px;
+}
+
+.stats-box {
+  background-color: #e8ecff;
+  border-radius: 15px;
+  padding: 30px 50px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.stats-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.stat h3 {
+  font-size: 32px;
+  color: #5851ff;
+  margin: 0;
+}
+
+.stat p {
+  margin: 5px 0 0;
+  color: #666;
+}
+
+.testimonial-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.testimonial-section h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+ 
+}
+
+.stars img {
+  width: 15px;
+  height: 20px;
+  gap: 5px;
+  margin: 10px 0 5px;
+}
+
+.testimonial-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.testimonial-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0 5px;
+  
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.reviewer img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 10px 0 5px;
+}
+
+.reviewer p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.reviewer span {
+  font-size: 12px;
+  color: #888;
+}
+/* section-Ready Context */
